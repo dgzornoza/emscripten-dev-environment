@@ -19,9 +19,6 @@ Project to set up a development environment for emscripten, in a visual studio c
 ## How to use
 
 https://floooh.github.io/2023/11/11/emscripten-ide.html
-Pasos previos:
-apt upgrade && update
-apt install ninja-build
 
 ```
 emcc src/sdl_1_2_sample.cpp -o public/sdl_1_2_sample.html

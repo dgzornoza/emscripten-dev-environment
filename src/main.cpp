@@ -1,6 +1,4 @@
-// #include <SDL.h>
-#include <SDL/SDL.h>
-#include <SDL/SDL_render.h>
+#include <SDL.h>
 #ifdef __EMSCRIPTEN__
     #include <emscripten.h>
 #endif
@@ -31,10 +29,8 @@ void drawRandomPixels() {
     SDL_DestroyTexture(screenTexture);
 }
 
-#include <SDL/SDL.h> // Include the necessary header file
-
 int main(int argc, char* argv[]) {
-    SDL_Init(SDL_INIT_VIDEO);
+    SDL_Init(SDL_INIT_VIDEO);    
     SDL_CreateWindowAndRenderer(512, 512, 0, &window, &renderer);
 
     surface = SDL_CreateRGBSurface(0, 512, 512, 32, 0, 0, 0, 0);

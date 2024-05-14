@@ -6,7 +6,8 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
-        "build": true,
+        "build": false,
         ".tmp": true,
-    }
+    },
+    "cmake.useCMakePresets": "always",
 }

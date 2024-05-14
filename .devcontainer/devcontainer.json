@@ -1,9 +1,9 @@
 {
     "name": "emscripten-dev-environment",
-    "image": "emscripten/emsdk:latest",
-    // "build": {
-    //     "dockerfile": "dockerfile"
-    // },
+    // "image": "emscripten/emsdk:latest",
+    "build": {
+        "dockerfile": "dockerfile"
+    },
     "runArgs": [
         "--name=${localWorkspaceFolderBasename}"
     ],

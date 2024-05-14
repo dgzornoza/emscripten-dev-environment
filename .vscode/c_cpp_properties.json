@@ -3,7 +3,8 @@
         {
             "name": "Emscripten",
             "includePath": [
-                "/emsdk/upstream/include/**"
+                // "/emsdk/upstream/include/SDL/**",
+                "/usr/include/SDL2/**"
             ],
             "compilerPath": "/emsdk/upstream/emscripten/emcc",
             "intelliSenseMode": "clang-x64",

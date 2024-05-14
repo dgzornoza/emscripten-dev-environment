@@ -1,9 +1,5 @@
 FROM emscripten/emsdk:latest
 
-# [Optional] Uncomment if you want to install an additional version
-#  of node using nvm
-# ARG EXTRA_NODE_VERSION=18
-# RUN su node -c "source /usr/local/share/nvm/nvm.sh \
-#    && nvm install ${EXTRA_NODE_VERSION}"
-
-RUN npm install --global http-server
+RUN apt-get update && apt-get upgrade -y
+RUN apt-get install libsdl2-2.0-0 libsdl2-dev gdb -y
+RUN apt install ninja-build -y
