@@ -33,22 +33,15 @@ EMCC_DEBUG=1 emcc src/sdl_1_2_sample.cpp -o public/sdl_1_2_sample.html
 - Open folder with Visual Studio Code
 - Press F1, then execute `Dev Containers: Reopen in container`
 - Wait for install container and recomended extensions
-- Execute build task Ctrl + Shift + B (Build)
+- Execute build task Ctrl + Shift + B (Build) (main.cpp should be commented for compile and download SDL2 port)
+- Uncomment main.cpp and run again execute build task Ctrl + Shift + B (Build)
+- Press F5 to run and debug the project
 - All ready to develop your project
-
-(optional for build tap file with loader + screen + code)
-
-- Press F1 and select 'Run Task' -> 'Build with PASMO'
-- use build/main-output.tap in any emulator
 
 ## Remarks
 
 Container name is created based in folder project name, you can create other folders based on this repository with other names for more projects.
 The first time it download docker hub image with the sjasmplus sources from 2023-009-05 and PASMO 0.5.5
-
-Source code sample is from Juan Antonio Rubio García book 'Ensamblador para ZX Spectrum: ¿Hacemos un juego?'
-
-www: <https://espamatica.com/>
 
 ## Links of interest
 
