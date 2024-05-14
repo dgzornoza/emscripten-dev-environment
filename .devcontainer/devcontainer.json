@@ -1,0 +1,26 @@
+{
+    "name": "emscripten-dev-environment",
+    "image": "emscripten/emsdk:latest",
+    // "build": {
+    //     "dockerfile": "dockerfile"
+    // },
+    "runArgs": [
+        "--name=${localWorkspaceFolderBasename}"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools-extension-pack",
+                "ms-vscode.cpptools",
+                "ms-vscode.cmake-tools",
+                "ms-vscode.wasm-dwarf-debugging",
+                "ms-vscode.live-server"
+            ]
+        }
+    },
+    "portsAttributes": {
+        "8080": {
+            "label": "http-server"
+        }
+    }
+}
