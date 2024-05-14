@@ -20,12 +20,6 @@ Project to set up a development environment for emscripten, in a visual studio c
 
 https://floooh.github.io/2023/11/11/emscripten-ide.html
 
-```
-emcc src/sdl_1_2_sample.cpp -o public/sdl_1_2_sample.html
-cmake --preset default -B build
-cmake --build build --preset Debug
-```
-
 
 emcc -c src/sdl_1_2_sample.cpp -o obj/sdl_1_2_sample.o
 emcc obj/sdl_1_2_sample.o -o public/sdl_1_2_sample.html

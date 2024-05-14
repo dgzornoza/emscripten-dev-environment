@@ -1,5 +1,4 @@
 FROM emscripten/emsdk:latest
 
 RUN apt-get update && apt-get upgrade -y
-RUN apt-get install libsdl2-2.0-0 libsdl2-dev gdb -y
 RUN apt install ninja-build -y
