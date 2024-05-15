@@ -23,8 +23,7 @@ Project to set up a development environment for emscripten, in a visual studio c
 - Open folder with Visual Studio Code
 - Press F1, then execute `Dev Containers: Reopen in container`
 - Wait for install container and recomended extensions
-- Execute build task Ctrl + Shift + B (Build) (**Remarks**: main.cpp should be commented first time for compile and download SDL2 port)
-- Uncomment main.cpp (ctrl + k + u) and run again execute build task Ctrl + Shift + B (Build)
+- Execute build task Ctrl + Shift + B (Build)
 - Press F5 to run and debug the project
 - All ready to develop your project
 
@@ -56,8 +55,7 @@ EMCC_DEBUG=1 emcc src/sdl_1_2_sample.cpp -o public/sdl_1_2_sample.html
 
 - My Github account: <https://github.com/dgzornoza>
 
-
-- Andre Weissflog: https://floooh.github.io/2023/11/11/emscripten-ide.html
+- Andre Weissflog: <https://floooh.github.io/2023/11/11/emscripten-ide.html>
 
 ## Releases
 

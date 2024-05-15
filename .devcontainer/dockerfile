@@ -2,3 +2,5 @@ FROM emscripten/emsdk:latest
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt install ninja-build -y
+
+RUN embuilder build sdl2
