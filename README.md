@@ -23,8 +23,7 @@ Project to set up a development environment for emscripten, in a visual studio c
 - Open folder with Visual Studio Code
 - Press F1, then execute `Dev Containers: Reopen in container`
 - Wait for install container and recomended extensions
-- Execute build task Ctrl + Shift + B (Build)
-- Press F5 to run and debug the project
+- Execute build task Ctrl + Shift + B (Build) or press F5 to run and debug the project
 - All ready to develop your project
 
 ## Remarks
