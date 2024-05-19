@@ -3,4 +3,7 @@ FROM emscripten/emsdk:latest
 RUN apt-get update && apt-get upgrade -y
 RUN apt install ninja-build -y
 
+# Add ports
 RUN embuilder build sdl2
+RUN embuilder build sdl2_image
+RUN embuilder build sdl2_ttf
